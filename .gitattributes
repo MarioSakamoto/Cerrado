@@ -1,0 +1,4 @@
+src/videos/automacaobgdetail.mp4 filter=lfs diff=lfs merge=lfs -text
+src/videos/video1.mp4 filter=lfs diff=lfs merge=lfs -text
+src/videos/video2.mp4 filter=lfs diff=lfs merge=lfs -text
+src/videos/video3.mp4 filter=lfs diff=lfs merge=lfs -text
