@@ -83,7 +83,7 @@ export const ServicesCard = styled.div`
     border-radius: 10px;
     max-height: 260px;
     width: 160px;
-    padding: 30px;
+    padding: 0px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
@@ -97,15 +97,15 @@ export const ServicesCard = styled.div`
     }
 
     &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: all 0.5s ease-in-out;
     }
 `;
 
 export const ServicesIcon = styled.img`
-    height: 130px; /* Ajuste o tamanho do ícone conforme desejado */
+    height: 290px; /* Ajuste o tamanho do ícone conforme desejado */
     width: 143px;
-    margin-bottom: 20px;
+    
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 `;
@@ -129,7 +129,7 @@ export const ServicesH1 = styled.h1`
 
 export const ServicesH2 = styled.h2`
     font-size: 1rem;
-    margin-bottom: 10px;
+    
 `;
 
 export const ServicesP = styled.p`
