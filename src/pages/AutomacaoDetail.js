@@ -155,10 +155,6 @@ const Button = styled.button`
   font-size: 1rem;
   filter: drop-shadow(0px 0px 0px #3b893f);
   cursor: pointer;
-  :hover {
-    filter: drop-shadow(2px 6px 9px #fff);
-    color: #fff;
-  }
 
   @media (max-width: 640px) {
     margin-top: 0.5rem;
