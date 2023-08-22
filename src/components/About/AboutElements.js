@@ -32,14 +32,30 @@ export const AboutBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+
+    @media screen and (max-width: 480px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; /* Reduza a largura para torná-lo menor */
+        object-fit: fill;
+    }
 `;
 
 export const VideoBg = styled.video`
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+
+    @media screen and (max-width: 480px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 190%; /* Reduza a largura para torná-lo menor */
+        object-fit: fill;
+    }
+
 `;
 
 export const AboutContent = styled.div`
