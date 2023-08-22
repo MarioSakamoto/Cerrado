@@ -90,33 +90,31 @@ export const ServicesCard = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 4px;
     max-height: 260px;
-    width: 160px;
+    width: 190px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     background: linear-gradient(45deg, #fff, #65ab62);
-    border: 8px solid #3b893f; /* Adicione a cor da borda desejada */
+    border: 5px solid #3b893f;
     transition: border-color 0.2s ease-in-out;
     
 
     &:hover {
-    border-color: #65ab62; /* Mude a cor da borda no estado hover */
-    }
-
-    &:hover {
-        transform: scale(1.2);
-        transition: all 0.5s ease-in-out;
+    border-color: #65ab62;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
     }
 `;
 
 export const ServicesIcon = styled.img`
     
-    height: 130px; /* Ajuste o tamanho do ícone conforme desejado */
-    width: 143px;
-    margin-bottom: 20px;
+    height: 150px; /* Ajuste o tamanho do ícone conforme desejado */
+    width: 140%;
+    margin-bottom: 10px;
+    object-fit: cover;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     
 `;
@@ -148,10 +146,7 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
-    color: black;
+    color: #3b893f;
     font-size: 1.3rem; /* Ajuste o tamanho da fonte do título */
     font-weight: 700
 `;
-
-
-

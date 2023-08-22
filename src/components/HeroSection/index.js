@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 // pexels.com for free stock videos
-import Video from '../../videos/video2.mp4'
-import LogoImage from "../../images/logocerrado1000.jpg"
+import Video from '../../videos/Cerrado Render.mp4'
 import {
     HeroContainer,
     HeroBg,
     VideoBg,
     HeroContent,
-    HeroP,
+
     HeroBtnWrapper,
     ArrowForward,
     ArrowRight
@@ -29,27 +28,8 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-            <img className='img'
-                src={LogoImage}
-                alt="Logo"
-                style={{
-                width: '400px',
-                height: '100px',
-                marginTop: '-140px',
-                borderRadius: '50px',
-                position: 'absolute', // Set the image position to absolute
-                top: '50%', // Center the image vertically
-                left: '50%', // Center the image horizontally
-                transform: 'translate(-50%, -50%)', // Center the image perfectly
-                zIndex: '1', // Set a higher z-index to ensure the image appears above the content
-                }}
-            />
-                
-                
-                <HeroP> 
-                    Propondo soluções eficientes preocupando com a <span style={{ color: 'yellow' }}>sustentabilidade</span>, <span style={{ color: 'yellow' }}>tecnologia</span> e <span style={{ color: 'yellow' }}>meio ambiente</span>.
-                </HeroP>
-                
+            
+
                 <HeroBtnWrapper>
                     <Button 
                         to="services" 

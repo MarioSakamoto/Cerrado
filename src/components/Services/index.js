@@ -1,10 +1,11 @@
+
 import React from 'react';
 import { Slide } from "react-awesome-reveal";
 import Icon1 from '../../images/meioambientePort.jpg';
 import Icon2 from '../../images/engenhariacivil.jpg';
 import Icon3 from '../../images/saneamento.jpg';
 import Icon4 from '../../images/automacao.jpg';
-import Video from '../../videos/videobgfort.mp4'
+import Video from '../../videos/video2.mp4'
 
 import {
   ServicesContainer,

@@ -55,8 +55,8 @@ export const AboutContent = styled.div`
 export const AboutH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
-    margin-bottom: 3rem;
-    margin-top: -5rem;
+    margin-bottom: 1rem;
+    margin-top: 15rem;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
@@ -65,14 +65,17 @@ export const AboutH1 = styled.h1`
 `
 export const AboutH2 = styled.h2`
     color: #3b893f;
-    font-size: 2.0rem;
-    margin-bottom: 2rem;
-    padding: 0 200px;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
     @media screen and (max-width: 480px) {
-        font-size: 1.5rem;
-        margin-top: 5px;
-        text-align: start;
+        font-size: 1.3rem;
+        margin-top: 255px;
+        text-align: center;
         padding: 2px 4px; /* Opcional: adicione um espaçamento interno para que o background não fique muito próximo ao texto */
         display: inline-block;
     }
@@ -86,7 +89,7 @@ margin-bottom: 2rem;
 `
 
 export const AboutBtnWrapper = styled.div`
-    margin-top: 32px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;

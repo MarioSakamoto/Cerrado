@@ -37,12 +37,12 @@ const AutomacaoDetail = () => {
             </Slide>
             <Slide direction="up">
               <ServicesCard height="2rem">
-                <Item>Automação de reservatórios, ETE, ETA, poços artesianos;</Item>
+                <Item>Automação de reservatórios, ETE e ETA, poços artesianos;</Item>
               </ServicesCard>
             </Slide>
             <Slide direction="up">
               <ServicesCard height="2rem">
-                <Item>Automação de levatória de água, elevatória de esgoto e macromedidores;</Item>
+                <Item>Automação de elevatória de água, elevatória de esgoto e macromedidores;</Item>
               </ServicesCard>
             </Slide>
           </List>

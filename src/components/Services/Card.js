@@ -32,4 +32,3 @@ const Container = styled.div`
         font-size: 0.8rem;
     }
 `
-

@@ -75,35 +75,30 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 10px;
-    max-height: 260px;
-    width: 160px;
-    padding: 0px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-    background: linear-gradient(45deg, #fff, #65ab62);
-    border: 8px solid #3b893f; /* Adicione a cor da borda desejada */
-    transition: border-color 0.2s ease-in-out;
-
-
-    &:hover {
-    border-color: #65ab62; /* Mude a cor da borda no estado hover */
-    }
-
-    &:hover {
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
+background: #fff;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border-radius: 4px;
+max-height: 260px;
+width: 190px;
+padding: 30px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+background: linear-gradient(45deg, #fff, #65ab62);
+border: 5px solid #3b893f;
+transition: border-color 0.2s ease-in-out;
+&:hover {
+    border-color: #65ab62;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
     }
 `;
 
 export const ServicesIcon = styled.img`
-    height: 290px; /* Ajuste o tamanho do ícone conforme desejado */
+    height: 250px; /* Ajuste o tamanho do ícone conforme desejado */
     width: 143px;
     
     border-radius: 4px;

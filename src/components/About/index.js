@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // pexels.com for free stock videos
-import Video from '../../videos/video3.mp4'
+import Video from '../../videos/Cerrado Render 02.mp4'
 import {
     AboutContainer,
     AboutBg,
@@ -29,10 +29,10 @@ const About = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </AboutBg>
             <AboutContent>
-                <AboutH1> Quem somos </AboutH1>
-                <AboutH2> A Cerrado Engenharia e Consultoria Ambiental 
-                    <span style={{ color: 'white' }}> é uma empresa que oferece soluções 
-                    em meio ambiente, engenharia e gestão para garantir um futuro sustentável.</span>
+                <AboutH1> </AboutH1>
+                <AboutH2>
+                    <span style={{ color: 'white' }}>
+                         Propondo soluções eficientes, preocupando com a <br/> <span style={{ color: 'yellow' }}>sustentabilidade, </span><span style={{ color: 'yellow' }}>tecnologia e meio ambiente.</span>  </span>
                 </AboutH2>
                 
                 

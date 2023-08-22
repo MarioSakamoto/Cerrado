@@ -7,8 +7,24 @@ import { AiFillLinkedin, AiOutlineArrowUp, AiOutlineInstagram } from "react-icon
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 import { FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
+import { useState } from "react";
 
 const Footer = () => {
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    if(name === ''  || email === ""){
+      alert("Digite seu nome e seu email!");
+      return;
+    }
+    alert("teste")
+  }
+
   const scrollUp = () => {
     window.scroll({
       top: 0,
@@ -97,24 +113,28 @@ const Footer = () => {
       
       <Form>
         <Slide direction="right">
-          <form>
+
+          <form className="form" onSubmit={sendEmail}>
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Nome e sobrenome..." />
+              <input type="text" placeholder="Nome e sobrenome..." 
+                onChange={(e) => setName(e.target.value)} value={name}/>
             </div>
             <div className="email">
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Seu email..." />
+              <input type="email" placeholder="Seu email..."
+                onChange={(e)=> setEmail(e.target.value)}  value ={email}></input>
             </div>
             <div className="message">
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Digite a mensagem aqui..."></textarea>
+              <textarea cols="30" rows="10" placeholder="Digite a mensagem aqui..."
+                onChange={(e) => setName(e.target.value)} value={message}></textarea>
             </div>
             <button>Enviar</button>
           </form>
@@ -127,15 +147,16 @@ const Footer = () => {
 export default Footer;
 
 const Container = styled.div`
-  margin-bottom: 30rem;
+  margin-bottom: 0rem;
   position: center;
-  padding: 8rem 1rem;
-  width: 80%;
+  padding: 8rem 3rem;
+  width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  height: 960px;
+  height: 800px;
+  align-items: center;
   background: linear-gradient(45deg, #fff, #65ab62);
   @media (max-width: 840px) {
     width: 90%;
@@ -144,6 +165,8 @@ const Container = styled.div`
   @media (max-width: 650px) {
     flex-direction: column;
     gap: 3rem;
+    width: 100%;
+    height: 100%;
   }
 `;
 const Profile = styled.div`
