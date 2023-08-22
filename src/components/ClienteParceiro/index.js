@@ -1,8 +1,8 @@
 import React from 'react'
 import { Slide } from "react-awesome-reveal";
-import Icon1 from '../../images/mindsetagen.jpg'
-import Icon2 from '../../images/inovageologo.jpg'
-import Icon3 from '../../images/ceramicacarmelitana.jpg'
+import Icon1 from '../../images/clienteeparceiroexem.jpg'
+import Icon2 from '../../images/clienteeparceiroexem.jpg'
+import Icon3 from '../../images/clienteeparceiroexem.jpg'
 import Video from '../../videos/clienteseparceirosbg.mp4'
 
 import {
@@ -30,7 +30,7 @@ const ClienteParceiro = () => {
 
       <ServicesWrapper>
       <Slide direction="left">
-        <a href="Cliente1"><ServicesCard>
+        <a href=""><ServicesCard>
           <ServicesIcon src={Icon1} />
           <ServicesH2></ServicesH2>
           <ServicesP></ServicesP>
@@ -38,7 +38,7 @@ const ClienteParceiro = () => {
       </Slide>
 
       <Slide direction="up">
-        <a href="Cliente2"><ServicesCard>
+        <a href=""><ServicesCard>
           <ServicesIcon src={Icon2} />
           <ServicesH2></ServicesH2>
           <ServicesP></ServicesP>
@@ -46,7 +46,7 @@ const ClienteParceiro = () => {
       </Slide>
         
       <Slide direction="right">
-        <a href="Cliente3"><ServicesCard>
+        <a href=""><ServicesCard>
           <ServicesIcon src={Icon3} />
           <ServicesH2></ServicesH2>
           <ServicesP></ServicesP>
