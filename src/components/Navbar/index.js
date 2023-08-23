@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll'
-import LogoImage from "../../images/navlogo.jpg"
+import LogoImage from "../../images/2 (1).png"
 import {
     Nav,
     NavbarContainer,
@@ -58,7 +58,7 @@ const Navbar = ({ toggle }) => {
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to="/" onClick={toggleHome}>
-                             <img src={LogoImage} alt="Logo" width={0} height={0} style={{ borderRadius: '50px' }} />
+                             <img src={LogoImage} alt="Logo" width={300} height={200} style={{ borderRadius: '50px' }} />
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
