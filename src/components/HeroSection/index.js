@@ -30,23 +30,7 @@ const HeroSection = () => {
             <HeroContent>
             
 
-                <HeroBtnWrapper>
-                    <Button 
-                        to="services" 
-                        onMouseEnter={ onHover } 
-                        onMouseLeave={ onHover }
-                        primary="true"
-                        dark="true"
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        activeClass='active'
-                        exact='true'
-                        > 
-                        VEJA NOSSO PORTFÓLIO
-                        {hover ? <ArrowForward/> : <ArrowRight/>} 
-                    </Button>
-                </HeroBtnWrapper>
+                
             </HeroContent>
         </HeroContainer>
     )

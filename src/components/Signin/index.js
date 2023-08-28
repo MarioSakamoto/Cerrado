@@ -28,9 +28,7 @@ const SignIn = () => {
             <Icon to="/"> <IoIosHome /> </Icon>
                 <FormContent>
                     <Form action="#">
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <img src={LogoImage} alt="Logo" width={199} height={95 } style={{ borderRadius: '4px' }} />
-                        </div>
+                        
                         <FormH1> Acessar Conta </FormH1>
                         <FormLabel htmlFor='for'> Email </FormLabel>
                         <FormInput type='email' required />
